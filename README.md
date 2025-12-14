@@ -202,9 +202,9 @@ Since the p-value is greater than the 0.5 significance level, we fail to reject 
 ## Hypothesis Testing
 In the hypothesis test, I aimed to assess whether there is a significant difference in the distribution of proportions of winning games between the team that secures the first dragon and the team that does not. During EDA, we had a closer look at how first dragon-securing teams had a higher winrate than those that did not. This is an opportunity to evaluate a team's ability to convert their first dragon advantage into a quantitative measure of dominance, like total kills at the end of the match.
 
-**Null**: The distribution of kills for the team that secures the first blood is the **same** as the team that does not get the first blood. 
+**Null**: The distribution of kills for the team that secures the first dragon is the **same** as the team that does not get the first dragon. 
 
-**Alternative**: The distribution of kills for the team that secures the first dragon is **greater** as the team that does not get the first blood.
+**Alternative**: The distribution of kills for the team that secures the first dragon is **greater** as the team that does not get the first dragon.
 
 **Test Statistic**: *Signed* mean difference between teams in kills with and without first kills.
 
@@ -222,7 +222,7 @@ Here is a histogram containing the distribution of our test statistics during th
 Based on the hypothesis test performed, with a **p-value** of **0.0000**, we **reject** the null hypothesis. This suggests that the distribution of kills for winning games for the team that secures the first dragon is greater than the team that does not get the first dragon. This finding shows that first dragon is likely to have a non-neglegible an impact on a team's ability to dominate the game through kills.
 
 ## Framing a Prediction Problem
-From the last section, we found out that getting first blood may have a significant impact on the team kills. Since the statistics for each team could be so different, are there any specific characteristics for each position in terms of in-game statistics? In other words, is it possible to predict a player's position solely by analyzing their in-game statistics, such as first blood kills, deaths, assists, and other relevant features?
+From the last section, we found out that getting first objectives may have a significant impact on the team kills. Since the statistics for each team could be so different, are there any specific characteristics for each position in terms of in-game statistics? In other words, is it possible to predict a player's position solely by analyzing their in-game early statistics, such as first dragon, first baron, first tower, and early quantities?
 
 To address this question, I can employ machine learning techniques such as classification algorithms. For my prediction model, I will focus on the result of the game for a given team. Thus, my **prediction problem**: *Are we able to predict the outcome of a game based on a team's early game statistics?* My model seeks to answer this question.
 
