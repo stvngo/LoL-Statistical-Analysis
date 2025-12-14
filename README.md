@@ -90,7 +90,7 @@ I performed univariate analysis on the kill and damage share statistics in the d
 <iframe
   src="assets/fig1.html"
   width="800"
-  height="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -103,7 +103,7 @@ I performed some bivariate analyses on the relationship between securing first t
 <iframe
   src="assets/fig5.html"
   width="800"
-  height="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -112,7 +112,7 @@ This grouped bar chart compares win rates based on whether teams secured the fir
 <iframe
   src="assets/fig7.html"
   width="800"
-  height="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -153,7 +153,7 @@ Below is the observed distribution of `gamelength` when `goldat15` is missing an
 <iframe
   src="assets/fig9.html"
   width="800"
-  height="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -161,8 +161,8 @@ After performing the permutation tests, I found that the **observed statistic** 
 
 <iframe
   src="assets/fig11.html"
-  width="800"
-  height="600"
+  width="900"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -184,7 +184,7 @@ Below is the observed distribution of `result` when `goldat15` is missing and no
 <iframe
   src="assets/fig10.html"
   width="800"
-  height="600"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -192,8 +192,8 @@ After I performed permutation tests, I found that the **observed statistic** for
 
 <iframe
   src="assets/fig12.html"
-  width="800"
-  height="600"
+  width="900"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -214,8 +214,8 @@ Here is a histogram containing the distribution of our test statistics during th
 
 <iframe
   src="assets/fig13.html"
-  width="800"
-  height="600"
+  width="900"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -257,7 +257,7 @@ For the hyperparameter-tuning pipeline, I used *GridSearchCV* to search over the
 <iframe
   src="assets/fig14.html"
   width="800"
-  height="400"
+  height="450"
   frameborder="0"
 ></iframe>
 
