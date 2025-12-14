@@ -252,7 +252,7 @@ Furthermore, I believe these features are significantly more 'useful' than the b
 
 My final model also uses a **Random Forest Classifier** in alignment with the baseline model. The first two additional features added (`firsttower`, `firstbaron`) are categorical features, so I used the OneHotEncoder Transformer to transform them into binary features. The last feature `goldat15` is quantitative, so I used the StandardScaler Transformer to transform the columns into standard scale, because each match's duration varies widely, and therefore the statistics and overall feature importances could seem uninterpretable when unstandardized. 
 
-For the hyperparameter-tuning pipeline, I used *GridSearchCV* to search over the set of all possible hyperparameters I had given the model. I used max depth, number of estimators, and criterion for the Random Forest Classifier. We are testing max depth of 2 through 100, with each of 5 steps. For the number of estimators, we are testing from 2 to 100, with each of 10 steps. I included gini and entropy as the two possible criterion for this model. After searching for the best hyperparameters, I found out that the best max depth is **7**, the best number of estimators is **72**, and the best criterion is **gini**.
+For the hyperparameter-tuning pipeline, I used *GridSearchCV* to search over the set of all possible hyperparameters I had given the model. I used max depth, number of estimators, and criterion for the Random Forest Classifier. We are testing max depth of 2 through 100, with each of 5 steps. For the number of estimators, we are testing from 2 to 100, with each of 10 steps. I included gini and entropy as the two possible criterion for this model. After searching for the best hyperparameters, I found out that the best max depth is **7**, the best number of estimators is **82**, and the best criterion is **entropy**.
 
 <iframe
   src="assets/fig14.html"
@@ -268,11 +268,11 @@ In this section, we are going to assess whether our model is fair among differen
 
 Group `X` represents the teams that have first baron (`firstbaron == 1`), and Group `Y` represents those who do not have first baron (`firstbaron == 0`). My evaluation metric is accuracy, and the significance level is **0.05**.
 
-The following are our hypotheses:
+The following are my hypotheses:
 
-**Null hypothesis**: Our model is fair. Its accuracy for teams who secured the first baron is the same as the accuracy for teams who do not.
+**Null hypothesis**: The model is fair. Its accuracy for teams who secured the first baron is the same as the accuracy for teams who do not.
 
-**Alternative hypothesis**: Our model is unfair. Its accuracy for teams who have secured the first baron is NOT the same as the accuracy for teams who have not secured the first baron.
+**Alternative hypothesis**: The model is unfair. Its accuracy for teams who have secured the first baron is NOT the same as the accuracy for teams who have not secured the first baron.
 
 **Test statistics**: The difference in accuracy between teams who secured first baron and teams that didn't.
 
