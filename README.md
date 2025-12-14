@@ -257,7 +257,7 @@ For the hyperparameter-tuning pipeline, I used *GridSearchCV* to search over the
 <iframe
   src="assets/fig14.html"
   width="800"
-  height="600"
+  height="400"
   frameborder="0"
 ></iframe>
 
