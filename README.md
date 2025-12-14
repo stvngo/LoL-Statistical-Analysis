@@ -119,6 +119,7 @@ This grouped bar chart compares win rates based on whether teams secured the fir
 This pie chart illustrates the win rate distribution among teams that secured the first dragon objective. While securing first dragon provides a notable edge, the relatively close split suggests that first dragon alone is not determinative of match outcomes; it indicates that while early dragon control is valuable, teams can still overcome this deficit through superior macro play and teamfighting.
 
 ### Interesting Aggregates
+
 | firstherald | teamkills | assists | deaths | gamelength | earnedgold | totalgold | teamkpm | goldat15  |
 |-------------|-----------|---------|--------|------------|------------|-----------|---------|-----------|
 | False       | 13.68     | 30.80   | 15.18  | 1889.57    | 35289.83   | 55934.23  | 0.44    | 24240.08  |
