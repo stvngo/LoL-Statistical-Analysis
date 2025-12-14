@@ -141,9 +141,9 @@ First, I perform the permutation test on `goldat15` and `gamelength`, and the mi
 
 **Null Hypothesis**: Distribution of `gamelength` when `goldat15` is missing is the same as the distribution of `gamelength` when `goldat15` is not missing.
 
-**Alternative Hypothesis**: Distribution of `league` when `firstblood` is missing is NOT same as the distribution of `league` when `firstblood` is not missing.
+**Alternative Hypothesis**: Distribution of `gamelength` when `goldat15` is missing is NOT same as the distribution of `gamelength` when `goldat15` is not missing.
 
-Below is the observed distribution of `league` when `firstblood` is missing and not missing, in both a summary table and under a KDE plot.
+Below is the observed distribution of `gamelength` when `goldat15` is missing and not missing, in both a summary table and under a KDE plot.
 
 |                          | count | mean    | median | std    | min | max  |
 |--------------------------|-------|---------|--------|--------|-----|------|
@@ -172,9 +172,9 @@ The second permutation test that I perfomed is on `goldat15` and `result`, and t
 
 **Null Hypothesis**: Distribution of `result` when `goldat15` is missing is the same as the distribution of `result` when `goldat15` is not missing.
 
-**Alternative Hypothesis**: Distribution of `result` when `firstblood` is missing is NOT same as the distribution of `result` when `firstblood` is not missing.
+**Alternative Hypothesis**: Distribution of `result` when `goldat15` is missing is NOT same as the distribution of `result` when `goldat15` is not missing.
 
-Below is the observed distribution of `result` when `firstblood` is missing and not missing as a table and a KDE curve.
+Below is the observed distribution of `result` when `goldat15` is missing and not missing as a table and a KDE curve.
 
 | result | goldat15_missing = False | goldat15_missing = True |
 |--------|--------------------------|-------------------------|
