@@ -276,4 +276,4 @@ The following are our hypotheses:
 
 **Test statistics**: The difference in accuracy between teams who secured first baron and teams that didn't.
 
-After performing the permutation test, the resulting p-value was **0.3851**, which is larger than the 0.05 significance level. Consequently, we fail to reject the null hypothesis. This outcome implies that the model predicts game outcomes from both groups with statistically similar accuracy levels. Consequently, our model is fair, exhibiting no discernible bias towards the teams that secured first baron over the teams that didn't based on the specified criteria.
+After performing the permutation test, the resulting p-value was **0.8184**, which is larger than the 0.05 significance level. Consequently, we fail to reject the null hypothesis. This outcome implies that the model predicts game outcomes from both groups with statistically similar accuracy levels. Consequently, our model is fair, exhibiting no discernible bias towards the teams that secured first baron over the teams that didn't based on the specified criteria.
